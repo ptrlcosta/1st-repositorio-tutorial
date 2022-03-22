@@ -1,12 +1,10 @@
 LISTA DE COMANDOS GIT HUB
 
 //Status inicial do git e arquivos que estao pendentes para enviar ao repositorio.
-
 	1- git init
 	2- git status
 	
 //Adicionar os arquivos que serao mandados ao repositorio.
-
 	3- git add [arquivo]
 	3- git add .
 	3- git add *txt
@@ -14,7 +12,6 @@ LISTA DE COMANDOS GIT HUB
 
 
 //Sempre adicione uma descricao sobre o repositorio, isso serve pra organizar e manter atualizado a funcao da pasta.
-
 	4- git commit -m "descricao do repositorio" 	
 	5- git log
 
@@ -23,27 +20,35 @@ LISTA DE COMANDOS GIT HUB
 
 //Antes de adicionar o arquivo é preciso informar o repositorio para onde os arquivos serao enviados.
 Crie o repositorio no Github, e copie o link URL.
-
 	6- git remote add origin [endereco url]
 
 //No primeiro push é preciso definir qual o branch será enviado o arquivo. Inicialmente sempre manda para master.
 //Para subir o arquivo sempre é preciso criar o commit
-
 	7- git push --set-upstream origin master
 
 //Para gerenciar o historico de commits
 	8- git reflog
+
+//Para voltar localmente a versao anterior do seu codigo alterado. Isso vai fazer o codigo retornar a como era no id digitado.
+Por esse motivo e interessantissimo manter sempre o commit atualizado com a melhor descricao possivel das alteracoes no
+codigo. Pra nunca se confundir quanto a qual versao e a desejada.
+	9- git reset --hard [id]
 	
 
-	8- git pull origin master
-	9- git diff head
-	10- git diff --staged
-	11- git reset [pasta/arquivo]
-	12- git checkout -- [arquivo]
-	13- git branch [novo branch (clean_up)]
-	14- git checkout [(clean_up)]
-	15- git rm [arquivo]
-	16- git chekout master
-	17- git merge clean_up
-	18- git branch -d [branch(clean_up)]
-	19- git push
+
+
+
+
+
+git pull origin master
+git diff head
+git diff --staged
+
+git checkout -- [arquivo]
+git branch [novo branch (clean_up)]
+git checkout [(clean_up)]
+git rm [arquivo]
+git chekout master
+git merge clean_up
+git branch -d [branch(clean_up)]
+git push
