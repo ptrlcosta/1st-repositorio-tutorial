@@ -1,0 +1,25 @@
+LISTA DE COMANDOS GIT HUB
+
+	1- git init
+	2- git status
+
+	3- git add [arquivo]
+	3.2- git add .
+	3.3- git add *txt
+	
+	4- git commit -m "descricao do repositorio" 	
+	5- git log
+	6- git remote add origin [endereco url]
+	7- git push -u origin master
+	8- git pull origin master
+	9- git diff head
+	10- git diff --staged
+	11- git reset [pasta/arquivo]
+	12- git checkout -- [arquivo]
+	13- git branch [novo branch (clean_up)]
+	14- git checkout [(clean_up)]
+	15- git rm [arquivo]
+	16- git chekout master
+	17- git merge clean_up
+	18- git branch -d [branch(clean_up)]
+	19- git push
