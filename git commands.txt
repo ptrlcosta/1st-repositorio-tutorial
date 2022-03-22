@@ -26,9 +26,14 @@ Crie o repositorio no Github, e copie o link URL.
 
 	6- git remote add origin [endereco url]
 
-//No primeiro push é preciso definir qual o branch será enviado o arquivo. Inicialmente sempre manda para master. 
+//No primeiro push é preciso definir qual o branch será enviado o arquivo. Inicialmente sempre manda para master.
+//Para subir o arquivo sempre é preciso criar o commit
 
 	7- git push --set-upstream origin master
+
+//Para gerenciar o historico de commits
+	8- git reflog
+	
 
 	8- git pull origin master
 	9- git diff head
